@@ -1,0 +1,5 @@
+# PDF To be ignored
+Git_commands.pdf
+
+# Something Mac specific
+.DS_Store
