@@ -1,10 +1,10 @@
 # Manual of Git commands
 
-1. How to initialize git
+1. How to initialize git?
    
    `git init`
 
-2. How to send to staging area
+2. How to send to staging area?
    
    `git add <file name>`
    
@@ -14,16 +14,36 @@
    
    - `git add` files with related changes
    
-   - git commit with message
+   - `git commit` with message
 
-3. How to commit a change to create my 1st snapshot
+3. How to commit a change to create my 1st snapshot?
    
    `git commit -m "MEANINGFUL MESSAGE"`
    
    P.S.: Meaningful message: why, how, limitations, effects
 
-4. How to check in what conceptual areas my files are
+4. How to check in what conceptual areas my files are?
    
    `git status`
    
    P.S.: uncomitted, unstaged (file known before), untracked files (i.e. completely new file)
+
+5. How to get commit history?
+   
+   `git log`
+   
+   interesting arguments:
+   
+   - `-n`
+   
+   - `--abbrev-comit`
+   
+   - `git log` `optional/path/to/specific/file`
+
+6. How to compare versions of the same file?
+   
+   - `git show `<commit 1> <commit 2>  (or you can specify a single commit and you'll get the difference with the previous commit)
+   
+   - `git diff` <commit 1> <commit 2>
+   
+   Take into account the directionality!
