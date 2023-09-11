@@ -13,7 +13,5 @@
   - staging is done by `$git add`
 
 - Local repository: The repository where you keep your snapshots. It is found in `.git `hidden folder. It is on your computer (locally).
-  
-  
 
-
+P.S.: to check in what conceptual areas my files are, I can use `git status`

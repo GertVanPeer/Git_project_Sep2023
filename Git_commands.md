@@ -1,5 +1,3 @@
-
-
 # Manual of Git commands
 
 1. How to initialize git
@@ -15,3 +13,9 @@
    `git commit -m "MEANINGFUL MESSAGE"`
    
    P.S.: Meaningful message: why, how, limitations, effects
+
+4. How to check in what conceptual areas my files are
+   
+   `git status`
+   
+   P.S.: uncomitted, unstaged (file known before), untracked files (i.e. completely new file)
