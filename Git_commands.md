@@ -61,6 +61,13 @@
 8. How to transfer your commits to your remote repository on GitHub?
    
    - `git push`
-9. How to bring changes from the remote to the local repository?
-   - 'git pull'
-   observation: when your local is not synced with the remote (e.g. when collaborating or when changing something online?)
+
+9. How to get rid of a commit?
+   
+   - `git revert HEAD`: will revert you to the previous commit (i.e. changes HEAD to the previous commit)
+     
+     (**<u>best not to use</u>** `git reset` as long as you don't know what you're doing)
+
+10. How to recover your local repository when you accidently delete it?
+    
+    - `git clone <SSH key>`
