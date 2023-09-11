@@ -58,4 +58,4 @@
 
 8. How to transfer your commits to GitHub?
    
-   - git push
+   - `git push`
