@@ -7,6 +7,14 @@
 2. How to send to staging area
    
    `git add <file name>`
+   
+   **How to use it cleverly?**
+   
+   - use in combination with git status 
+   
+   - `git add` files with related changes
+   
+   - git commit with message
 
 3. How to commit a change to create my 1st snapshot
    
