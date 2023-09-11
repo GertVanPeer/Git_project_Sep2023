@@ -47,3 +47,15 @@
    - `git diff` <commit 1> <commit 2>
    
    Take into account the directionality!
+
+7. How to establish the connection between your local git repository and the online repository?
+   
+   - create a new repository online; it's easiest to use the same name as your local repository
+   
+   - use the command `git remote add` <name for connection> <SSH key>
+   
+   - the SSH key is different for each repository and can be retrieved in GitHub
+
+8. How to transfer your commits to GitHub?
+   
+   - git push
