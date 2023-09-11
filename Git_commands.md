@@ -61,3 +61,6 @@
 8. How to transfer your commits to your remote repository on GitHub?
    
    - `git push`
+9. How to bring changes from the remote to the local repository?
+   - 'git pull'
+   observation: when your local is not synced with the remote (e.g. when collaborating or when changing something online?)
