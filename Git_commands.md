@@ -48,14 +48,16 @@
    
    Take into account the directionality!
 
-7. How to establish the connection between your local git repository and the online repository?
+7. How to establish the connection ('bridge') between your local git repository and the remote repository?
    
    - create a new repository online; it's easiest to use the same name as your local repository
    
-   - use the command `git remote add` <name for connection> <SSH key>
+   - creating the link: use the command `git remote add` <name for connection> <SSH key>
+     
+     - name for link: usually you used the same as for both repositories, but it can be anything basically
    
-   - the SSH key is different for each repository and can be retrieved in GitHub
+   - SSH key is different for each repository and can be retrieved in GitHub
 
-8. How to transfer your commits to GitHub?
+8. How to transfer your commits to your remote repository on GitHub?
    
    - `git push`
