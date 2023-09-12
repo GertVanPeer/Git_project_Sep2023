@@ -72,7 +72,15 @@
     
     - `git clone <SSH key>`
 
-
+11. How to branch?
+    
+    - `git branch <name new branch>`
+    
+    - moving inside the new branch: `git checkout <name new branch>`
+      
+      - will bring you to the most recent commit
+    
+    - fetch will give you ...
 
 #### Collaborations
 
@@ -84,7 +92,7 @@
    
    Your collaborator should accept the invitation. From now on he/she will have access to push/pull your project.
 
-2.  How to make the corresponding repository to your computer?
+2. How to make the corresponding repository to your computer?
    
    To start working on your collaborative project you should make a new folder on your computer (**<u>DO NOT ADD NEW GIT CONTROLLED PROJECT INSIDE ANOTHER FOLDER WITH INITIATED GIT</u>**).
    
