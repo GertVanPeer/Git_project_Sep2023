@@ -26,7 +26,7 @@
    
    `git status`
    
-   P.S.: uncomitted, unstaged (file known before), untracked files (i.e. completely new file)
+   P.S.: uncommitted, unstaged (file known before), untracked files (i.e. completely new file)
 
 5. How to get commit history?
    
@@ -68,6 +68,24 @@
      
      (**<u>best not to use</u>** `git reset` as long as you don't know what you're doing)
 
-10. How to recover your local repository when you accidently delete it?
+10. How to recover your local repository when you accidentally delete it?
     
     - `git clone <SSH key>`
+
+
+
+#### Collaborations
+
+1. How to start a new collaboration?
+   
+   To start a new collaboration you have to go to your GitHub repository and give access to your collaborator.
+   
+   Go to **Settings** -> **Collaborators** (Access section on the left sidebar) -> green button **Add people** -> Add email/username/full name of the potential collaborator.
+   
+   Your collaborator should accept the invitation. From now on he/she will have access to push/pull your project.
+
+2.  How to make the corresponding repository to your computer?
+   
+   To start working on your collaborative project you should make a new folder on your computer (**<u>DO NOT ADD NEW GIT CONTROLLED PROJECT INSIDE ANOTHER FOLDER WITH INITIATED GIT</u>**).
+   
+   Go to this folder using `cd` and `git clone <ssh>` for the collaborative project. This will already make the bridge and grant you access to push/pull to the project.
